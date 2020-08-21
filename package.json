@@ -1,0 +1,18 @@
+{
+  "name": "cpu-benchmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node  main.ts",
+    "yieldable-start": "node --max-old-space-size=8000 yieldable.js"
+  },
+  "dependencies": {
+    "@crypto.com/json-stream-stringify": "^2.0.4",
+    "@types/node": "12.12.8",
+    "fast-json-stringify": "^2.2.3",
+    "ts-node": "8.5.2",
+    "typescript": "3.7.2",
+    "yieldable-json": "1.1.0"
+  }
+}
